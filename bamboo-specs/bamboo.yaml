@@ -1,0 +1,22 @@
+version: 2
+plan:
+  project-key: BOW2
+  name: Bowling
+  key: BOW2
+
+stages:
+  - Build Stage:
+      jobs: 
+        - Build 
+  - Test Stage:
+      jobs: 
+        - Test
+
+Build:
+  tasks:
+    - script:
+        - echo 'Hello world !'
+        
+Test:
+  tasks:
+    - script: test_bowling_game.py
