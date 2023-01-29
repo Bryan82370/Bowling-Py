@@ -19,4 +19,4 @@ Build:
         
 Test:
   tasks:
-    - script: test_bowling_game.py
+    - script: ./test_bowling_game.py
