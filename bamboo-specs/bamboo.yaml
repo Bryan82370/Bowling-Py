@@ -1,8 +1,8 @@
 version: 2
 plan:
   project-key: BOW2
-  name: Bowling
-  key: BOW2
+  name: Bowling_Plan
+  key: BOWPL
 
 stages:
   - Build Stage:
